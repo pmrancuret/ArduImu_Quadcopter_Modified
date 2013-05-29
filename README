@@ -1,0 +1,7 @@
+This project is an attempt to modify the open source ArduImu software in order to sense position and rotation information for a homemade Quad Copter built by John McArthur and Paul Rancuret.
+
+Originally, the code was taken from version 1.9.8 of the ArduImu software, for the Ardu-IMU board.  The Wiki for this board (along with downloadable code and other information) is found at https://code.google.com/p/ardu-imu/.
+
+Modifications to make to this software:
+
+Changed Serial.print() commands to Serial.write() under the file Output.pde, in sections meant to print binary data.  This will correctly print binary instead of ASCII data.
