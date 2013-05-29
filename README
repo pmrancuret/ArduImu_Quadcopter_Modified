@@ -5,3 +5,5 @@ Originally, the code was taken from version 1.9.8 of the ArduImu software, for t
 Modifications to make to this software:
 
 Changed Serial.print() commands to Serial.write() under the file Output.pde, in sections meant to print binary data.  This will correctly print binary instead of ASCII data.
+
+Eclipse is used as the IDE for this project, instead of the Arduino IDE.  For this reason, all code is treated as conventional c++ code, and requires the normal header files with function declarations, etc.  These files have been modified to add the necessary prototypes.
